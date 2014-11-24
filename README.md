@@ -121,6 +121,7 @@ JavaScript:
     $(function(){
 			$('#historyForm').searchHistory({
 				'sendWhenSelect':false,
+				//you can set 'actionByCall' to false and experience the differences
 				'actionByCall':true
 			});
 			$('#open').click(function(){$('#historyForm').searchHistory('open');});
