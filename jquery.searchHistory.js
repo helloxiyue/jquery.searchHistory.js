@@ -38,7 +38,7 @@
         var $history = $('<div class="search-history search-history-hide"></div>');
         var $list = $('<ul class="history-list"></ul>');
         var $item = $('<li class="history-item"></li>');
-        var $clear = $('<li class="history-clear"><a href="#" class="history-clear-op">清除历史</a></li>');
+        var $clear = $('<li class="history-clear"><a href="#" class="history-clear-op">clear</a></li>');
         var strCookie = $.cookie(options.cookieName);
         form.cookies = []
         if (strCookie && strCookie != 'null')
