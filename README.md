@@ -6,7 +6,8 @@ a jquery plugin showing the search history on the html's input element, and some
 script:
 -------
     script(type='text/javascript',src='jquery.js')
-    script(type='text/javascript',src='jquery.cookie.js')//need this jquery plugin to support cookie operations
+    //need this jquery plugin to support cookie operations
+    script(type='text/javascript',src='jquery.cookie.js')
     script(type='text/javascript',src='jquery.searchHistory.js')
 
 styles:
@@ -16,7 +17,8 @@ styles:
 
 Define your searchHistory:
 --------------------------
-    //be carefull, this plugin's performance is showed on input element but declared on form element.
+    //be carefull, this plugin's performance is showed on input element
+    //but declared on form element.
     //I do so, just wannait can work with jquery.autocompleter.js created by ArtemFitiskin 
     $(function () {
       $('#historyForm').searchHistory({expires:7});
