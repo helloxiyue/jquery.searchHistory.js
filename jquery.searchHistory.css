@@ -1,0 +1,95 @@
+.search-history {
+    width: 100%;
+    margin-top: -1px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    border: 1px solid #e6e6e6;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 1000;
+}
+
+.search-history-show {
+    display: block;
+}
+
+.search-history-hide {
+    display: none;
+}
+
+.history-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    font-size: 1em;
+}
+
+.history-item {
+    cursor: pointer;
+    padding: 0em 0.85em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+    .history-item:hover {
+        /* Hover State */
+        background-color: #f0f0f0;
+    }
+
+.history-item-selected {
+    /* Selected State */
+    background-color: #f0f0f0;
+}
+
+.history-clear {
+    padding: 0em 0.85em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+    .history-clear .history-clear-op {
+        float: right;
+    }
+
+        .history-clear .history-clear-op:link {
+            color: #0fcda5;
+            text-decoration: none;
+        }
+
+        .history-clear .history-clear-op:visited {
+            color: #0fcda5;
+        }
+
+        .history-clear .history-clear-op:hover {
+            color: #0fcda5;
+            text-decoration: underline;
+        }
+
+        .history-clear .history-clear-op:active {
+            color: #0fcda5;
+        }
+
+        .history-clear .history-clear-op img {
+            border: none;
+        }
+
+    .history-clear:before {
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        display: table;
+        content: "";
+    }
+
+    .history-clear:after {
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        display: table;
+        content: "";
+        clear: both;
+    }
