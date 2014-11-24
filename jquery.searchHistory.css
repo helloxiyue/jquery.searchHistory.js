@@ -93,3 +93,42 @@
         content: "";
         clear: both;
     }
+    
+body {
+    background-size: 100% auto;
+}
+
+    body .form-control {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 2.5em;
+        padding: 0.5em 0.85em;
+    }
+
+    body .btn {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 2.5em;
+        padding: 0.5em 0.85em;
+    }
+
+.mainbody {
+    padding-bottom: 4em;
+    padding-top: 2em;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+    .footer .power {
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+        color: #979797;
+    }
