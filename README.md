@@ -39,7 +39,7 @@ Options:
 <tr>
 <td>maxShowNum</td>
 <td align="center">number</td>
-<td align="right">the number of the search history showing</td>
+<td align="right">the number of the search history showing on screen</td>
 <td align="right">4</td>
 </tr>
 <tr>
